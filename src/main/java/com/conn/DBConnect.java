@@ -13,7 +13,7 @@ public class DBConnect {
 				Class.forName("com.mysql.cj.jdbc.Driver");
 				String url = "jdbc:mysql://localhost:3306/school_administer";
 				
-				conn = DriverManager.getConnection(url,"root","sumanjeet83");
+				conn = DriverManager.getConnection(url,"root","password");
 				System.out.print(conn);
 			}
 		} catch (ClassNotFoundException e) {
